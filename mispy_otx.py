@@ -1,5 +1,5 @@
 """
-MISPy-OTX.py - This script takes the last 7 days of OTX pulses you're subscribed to and imports them into a MISP Instance.
+MISPy-OTX.py - This script takes the last year of OTX pulses you're subscribed to and imports them into a MISP Instance.
 """
 import requests
 from pymisp import PyMISP, MISPEvent, MISPObject
